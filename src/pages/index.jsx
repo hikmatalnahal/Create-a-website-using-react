@@ -1,7 +1,8 @@
 import React from 'react';
 import '../css/home.css';
+import Navpages from '../components/Main/Nav';
+import Footerpage from '../components/Main/Footer';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import h1 from "../imgHome/1.png";
 import h2 from "../imgHome/2.jpg";
 import h3 from "../imgHome/3.jpg";
 import h4 from "../imgHome/4.png";
@@ -13,16 +14,10 @@ import h13 from "../imgHome/13.png";
 import h14 from "../imgHome/14.jpg";
 import h15 from "../imgHome/15.png";
 import h16 from "../imgHome/16.png";
-import h17 from "../imgHome/17.png";
 import h18 from "../imgHome/18.png";
 import h19 from "../imgHome/19.png";
 import h20 from "../imgHome/20.png";
-import fb from "../imgHome/footer/fb.png";
-import is from "../imgHome/footer/is.png";
-import tw from "../imgHome/footer/tw.png";
-import i1 from "../imgHome/footer/i1.png";
-import i2 from "../imgHome/footer/i2.png";
-import i3 from "../imgHome/footer/i3.png";
+
 class Index extends React.Component {
     toggleInfo(e) {
         const customText = e.target.parentNode.querySelector('.custom-text');
@@ -40,45 +35,8 @@ class Index extends React.Component {
     render() {
         return (
             <div>
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-                <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
 
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,800;1,900&family=Roboto:ital,wght@0,100;0,400;0,900;1,700;1,900&display=swap"
-                    rel="stylesheet" />
-                <link rel="stylesheet"
-                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-                <link rel="stylesheet"
-                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-                    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-                    crossorigin="anonymous" referrerpolicy="no-referrer" />
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-                <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
-
-
-
-                <div className="header">
-                    <div className="container">
-                        <div className="nav-left">
-                            <div className="img-logo">
-                                <img decoding="async" className="logo" src={h1} alt="Logo" />
-                            </div>
-                        </div>
-                        <div className="nav-right">
-                            <div className="right-link">
-                                <a href="./" className="homa-active">Home</a>
-                                <a href="./about">About</a>
-                                <a href="./services">Services</a>
-                                <a href="./latestnews">Latest News</a>
-                                <a href="./ConactUs">Contact Us</a>
-                                <a href="#" className="support">Support</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Navpages />
 
                 <div className="services" id="services">
                     <div className="container">
@@ -202,7 +160,7 @@ class Index extends React.Component {
                                 spaceBetween={50}
                                 slidesPerView={3}
                                 //   navigation
-                                Pagination={{ clickable: true }}
+                                data-pagination={{ clickable: true }}
                             >
                                 <SwiperSlide className="our-com">
                                     <img src={h11} alt="" className="img" />
@@ -316,7 +274,7 @@ class Index extends React.Component {
                             spaceBetween={50}
                             slidesPerView={3}
                             // navigation
-                            Pagination={{ clickable: true }}
+                            data-pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
                                 <div className="box-img">
@@ -367,73 +325,8 @@ class Index extends React.Component {
                     </div>
                 </div>
 
-                <div className="footer">
-                    <div className="footer-container">
-                        <section className="top-part">
-                            <p className="ready-started">Ready to get started?</p>
-                            <button className="footer-btn">Get Started</button>
-                        </section>
-                        <div className="middle-part">
-                            <div className="middle-flex">
-                                <p>
-                                    Subscribe to our newsletter
-                                </p>
-                                <div className="footer-input">
-                                    <input type="text" name="email" id="footer-input" placeholder="Email address" />
-                                    <div className="footer-input-icon"> <i className="fa-solid fa-angle-right"></i></div>
-                                </div>
-                            </div>
-                            <div>
-                                <ul>
-                                    <li>Home</li>
-                                    <li>About US</li>
-                                    <li>Services</li>
-                                    <li>Latest News</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <ul>
-                                    <li>Help</li>
-                                    <li>FAQs</li>
-                                    <li>Contact Us</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <div className="contact-widgett">
-                                    <img src={i1} alt="phone" />
-                                    <h5>Address:</h5>
-                                    <p>28 Division St, New York, NY 10002, USA</p>
-                                </div>
-                                <div className="contact-widgett">
-                                    <img src={i2} alt="phone" />
-                                    <h5>Email:</h5>
-                                    <p>Startnext@Gmail.Com</p>
-                                </div>
-                                <div className="contact-widgett">
-                                    <img src={i3} alt="phone" />
-                                    <h5>Phone:</h5>
-                                    <p>+ (321) 984 75413545</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="lower-part">
-                            <div className="flex-footer">
-                                <p>Terms & Conditions</p>
-                                <p>Privacy Policy</p>
-                            </div>
-                            <div className="flex-footer2">
-                                <img src={fb} alt="" />
-                                <img src={is} alt="" />
-                                <img src={tw} alt="" />
-                            </div>
-                        </div>
-                        <div className="footer-bottom" >
-                            <p className="footer-bottom-p">© 2023 Techreif. All Rights Reserved</p>
-                        </div>
-                    </div>
 
-                </div>
-
+                <Footerpage />
             </div>
 
         );
