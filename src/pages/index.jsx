@@ -17,6 +17,8 @@ import h16 from "../imgHome/16.png";
 import h18 from "../imgHome/18.png";
 import h19 from "../imgHome/19.png";
 import h20 from "../imgHome/20.png";
+import Boximg from '../components/Main/boximg';
+import Ourcom2 from '../components/Main/ourcom2';
 
 class Index extends React.Component {
     toggleInfo(e) {
@@ -131,21 +133,14 @@ class Index extends React.Component {
                             <h1>COMPANY FACTS</h1>
                             <h4>The service we offer is specifically designed <br /> We are proud of our design team</h4>
                         </div>
-                        <div className="our-com2">
+                        {/* <div className="our-com2">
                             <img src={h14} alt="" width="150px" height="150px" className="img2" />
                             <h1>1000 +</h1>
                             <p className="p1">awards won</p>
-                        </div>
-                        <div className="our-com2">
-                            <img src={h15} alt="" width="120px" height="150px" className="img2" />
-                            <h1>50K +</h1>
-                            <p className="p1">Happy Customers</p>
-                        </div>
-                        <div className="our-com2">
-                            <img src={h16} alt="" width="150px" height="140px" className="img2" />
-                            <h1>20 +</h1>
-                            <p className="p1">Completed projects</p>
-                        </div>
+                        </div> */}
+                        <Ourcom2 image={h14} title=" 1000 +" Content="awards won" />
+                        <Ourcom2 image={h15} title="50K +" Content="Happy Customers" />
+                        <Ourcom2 image={h16} title="20 +" Content="Completed projects" />
                     </div>
                 </div>
 
@@ -277,46 +272,27 @@ class Index extends React.Component {
                             data-pagination={{ clickable: true }}
                         >
                             <SwiperSlide>
-                                <div className="box-img">
+                                {/* <div className="box-img">
                                     <img src={h20} alt="" />
                                     <h3>Techreif is is transforming and scaling businesses successfully through services</h3>
                                     <span>Techreif Oct 20, 2022</span>
-                                </div>
+                                </div> */}
+                                <Boximg image={h20} title="Techreif is is transforming and scaling businesses successfully through services" Techreif="Techreif Oct 20, 2022" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="box-img">
-                                    <img src={h19} alt="" />
-                                    <h3>Techreif is is transforming and scaling businesses successfully through services</h3>
-                                    <span>Techreif Oct 20, 2022</span>
-                                </div>
+                                <Boximg image={h19} title="Techreif is is transforming and scaling businesses successfully through services" Techreif="Techreif Oct 20, 2022" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="box-img">
-                                    <img src={h18} alt="" />
-                                    <h3>Techreif is is transforming and scaling businesses successfully through services</h3>
-                                    <span>Techreif Oct 20, 2022</span>
-                                </div>
+                                <Boximg image={h18} title="Techreif is is transforming and scaling businesses successfully through services" Techreif="Techreif Oct 20, 2022" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="box-img">
-                                    <img src={h20} alt="" />
-                                    <h3>Techreif is is transforming and scaling businesses successfully through services</h3>
-                                    <span>Techreif Oct 20, 2022</span>
-                                </div>
+                                <Boximg image={h20} title="Techreif is is transforming and scaling businesses successfully through services" Techreif="Techreif Oct 20, 2022" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="box-img">
-                                    <img src={h19} alt="" />
-                                    <h3>Techreif is is transforming and scaling businesses successfully through services</h3>
-                                    <span>Techreif Oct 20, 2022</span>
-                                </div>
+                                <Boximg image={h19} title="Techreif is is transforming and scaling businesses successfully through services" Techreif="Techreif Oct 20, 2022" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="box-img">
-                                    <img src={h18} alt="" />
-                                    <h3>Techreif is is transforming and scaling businesses successfully through services</h3>
-                                    <span>Techreif Oct 20, 2022</span>
-                                </div>
+                                <Boximg image={h18} title="Techreif is is transforming and scaling businesses successfully through services" Techreif="Techreif Oct 20, 2022" />
                             </SwiperSlide>
 
                         </Swiper>

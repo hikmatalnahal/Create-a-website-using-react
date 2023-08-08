@@ -6,9 +6,11 @@ import h13 from "../imgHome/13.png";
 import h22 from "../imgHome/22.png";
 import h27 from "../imgHome/about1.png";
 import h28 from "../imgHome/about2.png";
-import h29 from "../imgHome/about2.png";
+import h29 from "../imgHome/about3.png";
 import h30 from "../imgHome/about4.png";
 import h32 from "../imgHome/Frame.png";
+import Widgetcard from '../components/About/widget-card';
+import Card from '../components/About/card2';
 const Aboutpages = () => {
     return (
         <>
@@ -42,7 +44,7 @@ const Aboutpages = () => {
                     <h2 className="special-heading">Our Awesome Team</h2>
                     <p>you can see our projects</p>
                     <div className="portfolio-content">
-                        <div className="card2">
+                        {/* <div className="card2">
                             <img src={h27} alt="" />
                             <div className="info">
                                 <h4>Project name</h4>
@@ -50,33 +52,12 @@ const Aboutpages = () => {
                                 <li style={{ listStyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
 
                             </div>
-                        </div>
-                        <div className="card2">
-                            <img src={h28} alt="" />
-                            <div className="info">
-                                <h4>Project name</h4>
-                                <li>Digital Marketing</li>
-                                <li style={{ listStyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                            </div>
-                        </div>
-                        <div className="card2">
-                            <img src={h29} alt="" />
-                            <div className="info">
-                                <h4>Project name</h4>
-                                <li>Digital Marketing</li>
-                                <li style={{ listStyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
+                        </div> */}
+                        <Card image={h27} Project="Project name" titel="UI/UX" conact="Lorem ipsum dolor sit amet, consectetur adipiscing" />
+                        <Card image={h28} Project="Project name" titel="Digital Marketing" conact="Lorem ipsum dolor sit amet, consectetur adipiscing" />
+                        <Card image={h29} Project="Project name" titel="UI/UX" conact="Lorem ipsum dolor sit amet, consectetur adipiscing" />
+                        <Card image={h30} Project="Project name" titel="Digital Marketing" conact="Lorem ipsum dolor sit amet, consectetur adipiscing" />
 
-                            </div>
-                        </div>
-                        <div className="card2">
-                            <img src={h30} alt="" />
-                            <div className="info">
-                                <h4>Project name</h4>
-                                <li>Digital Marketing</li>
-                                <li style={{ listStyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-
-                            </div>
-                        </div>
                     </div>
 
                 </div>
@@ -163,18 +144,13 @@ const Aboutpages = () => {
                             We are proud of our design team</p>
                     </div>
                     <div className="widget-cards">
-                        <div className="widget-card">
+                        {/* <div className="widget-card">
                             <p className="number">1000+</p>
                             <p>Completed Projects</p>
-                        </div>
-                        <div className="widget-card">
-                            <p className="number">10k</p>
-                            <p>Completed Projects</p>
-                        </div>
-                        <div className="widget-card">
-                            <p className="number">15k</p>
-                            <p>Completed Projects</p>
-                        </div>
+                        </div> */}
+                        <Widgetcard tilte="1000+" Projects="Completed Projects" />
+                        <Widgetcard tilte="10k" Projects="Completed Projects" />
+                        <Widgetcard tilte="15k" Projects="Completed Projects" />
                     </div>
 
                 </div>
