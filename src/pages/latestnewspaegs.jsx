@@ -13,7 +13,7 @@ const Latestnewspages = () => {
                         <p>Follow us for the latest news and articles
                         </p>
                     </div>
-                    <img src={h22} alt="balls image" class="balls-img" />
+                    <img src={h22} alt="balls" class="balls-img" />
                 </div>
             </div>
 
@@ -27,7 +27,7 @@ const Latestnewspages = () => {
                     </ul>
                     <div class="portfolio-content">
                         <div class="card2">
-                            <a href="./latest2"><img src={h23} alt="" /></a>
+                            <a href="./latest2"><img src={h23} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>UI/UX</li>
@@ -37,7 +37,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./latest2"><img src={h24} alt="" /></a>
+                            <a href="./latest2"><img src={h24} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li >Digital Marketing </li>
@@ -47,7 +47,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./latest2"><img src={h25} alt="" /></a>
+                            <a href="./latest2"><img src={h25} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>UI/UX</li>
@@ -56,7 +56,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./latest2"><img src={h26} alt="" /></a>
+                            <a href="./latest2"><img src={h26} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li >Digital Marketing </li>
@@ -66,7 +66,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./latest2"><img src={h23} alt="" /></a>
+                            <a href="./latest2"><img src={h23} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>UI/UX</li>
@@ -76,7 +76,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./latest2"><img src={h24} alt="" /></a>
+                            <a href="./latest2"><img src={h24} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>Digital Marketing </li>
@@ -86,7 +86,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./latest2"><img src={h25} alt="" /></a>
+                            <a href="./latest2"><img src={h25} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>UI/UX</li>
@@ -95,7 +95,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./latest2"><img src={h26} alt="" /></a>
+                            <a href="./latest2"><img src={h26} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>Digital Marketing </li>
@@ -105,7 +105,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./latest2"><img src={h23} alt="" /></a>
+                            <a href="./latest2"><img src={h23} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>UI/UX</li>
@@ -115,7 +115,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./latest2"><img src={h24} alt="" /></a>
+                            <a href="./latest2"><img src={h24} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>Digital Marketing </li>
@@ -124,7 +124,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./ latest2"><img src={h25} alt="" /></a>
+                            <a href="./ latest2"><img src={h25} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>UI/UX</li>
@@ -133,7 +133,7 @@ const Latestnewspages = () => {
                             </div>
                         </div>
                         <div class="card2">
-                            <a href="./ latest2"><img src={h26} alt="" /></a>
+                            <a href="./ latest2"><img src={h26} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
                                 <li>Digital Marketing </li>

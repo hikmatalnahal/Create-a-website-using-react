@@ -11,7 +11,7 @@ const ConactUspage = () => {
                         <p>Keep in Touch With us
                         </p>
                     </div>
-                    <img src={h22} alt="balls image" className="balls-img" />
+                    <img src={h22} alt="balls" className="balls-img" />
                 </div>
             </div>
             <div className="container">

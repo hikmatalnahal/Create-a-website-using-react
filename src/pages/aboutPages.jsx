@@ -22,7 +22,7 @@ const Aboutpages = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit
                         </p>
                     </div>
-                    <img src={h22} alt="balls image" className="balls-img" />
+                    <img src={h22} alt="balls " className="balls-img" />
                 </div>
             </div>
             <div className="container">
@@ -77,7 +77,7 @@ const Aboutpages = () => {
                             data-pagination={{ clickable: true }}
                         >
                             <SwiperSlide className="our-com">
-                                <img src={h11} alt="" className="img" />
+                                <img src={h11} alt="asd" className="img" />
                                 <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                 <span className="material-symbols-outlined">grade</span>
                                 <span className="material-symbols-outlined">grade</span>
@@ -86,7 +86,7 @@ const Aboutpages = () => {
                                 <span className="material-symbols-outlined">grade</span>
                             </SwiperSlide>
                             <SwiperSlide className="our-com">
-                                <img src={h12} alt="" className="img" />
+                                <img src={h12} alt="asd" className="img" />
                                 <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                 <span className="material-symbols-outlined">grade</span>
                                 <span className="material-symbols-outlined">grade</span>
@@ -95,7 +95,7 @@ const Aboutpages = () => {
                                 <span className="material-symbols-outlined">grade</span>
                             </SwiperSlide>
                             <SwiperSlide className="our-com">
-                                <img src={h13} alt="" className="img" />
+                                <img src={h13} alt="asd" className="img" />
                                 <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                 <span className="material-symbols-outlined">grade</span>
                                 <span className="material-symbols-outlined">grade</span>
@@ -104,7 +104,7 @@ const Aboutpages = () => {
                                 <span className="material-symbols-outlined">grade</span>
                             </SwiperSlide>
                             <SwiperSlide className="our-com">
-                                <img src={h11} alt="" className="img" />
+                                <img src={h11} alt="asd" className="img" />
                                 <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                 <span className="material-symbols-outlined">grade</span>
                                 <span className="material-symbols-outlined">grade</span>
@@ -113,7 +113,7 @@ const Aboutpages = () => {
                                 <span className="material-symbols-outlined">grade</span>
                             </SwiperSlide>
                             <SwiperSlide className="our-com">
-                                <img src={h12} alt="" className="img" />
+                                <img src={h12} alt="asd" className="img" />
                                 <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                 <span className="material-symbols-outlined">grade</span>
                                 <span className="material-symbols-outlined">grade</span>
@@ -122,7 +122,7 @@ const Aboutpages = () => {
                                 <span className="material-symbols-outlined">grade</span>
                             </SwiperSlide>
                             <SwiperSlide className="our-com">
-                                <img src={h13} alt="" className="img" />
+                                <img src={h13} alt="asd" className="img" />
                                 <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                 <span className="material-symbols-outlined">grade</span>
                                 <span className="material-symbols-outlined">grade</span>

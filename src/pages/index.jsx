@@ -53,7 +53,8 @@ class Index extends React.Component {
                                 </div>
                                 <div className="col">
                                     <div className="image image-column">
-                                        <img src={h2} alt="Image" />
+                                        <img src={h2} alt="asd
+                                        " />
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +68,8 @@ class Index extends React.Component {
                         <p>The service we offer is specifically designed to meet your needs.</p>
                         <div className="portfolio-content">
                             <div className="card">
-                                <img src={h3} alt="Image" />
+                                <img src={h3} alt="asd
+                                " />
                                 <div className="info">
                                     <h4>Graphic Design & Branding</h4>
                                     <ul>
@@ -82,7 +84,7 @@ class Index extends React.Component {
                                 </div>
                             </div>
                             <div className="card">
-                                <img src={h4} alt="Image" />
+                                <img src={h4} alt="asd" />
                                 <div className="info">
                                     <h4>Software</h4>
                                     <ul>
@@ -94,7 +96,7 @@ class Index extends React.Component {
                                 </div>
                             </div>
                             <div className="card">
-                                <img src={h5} alt="Image" />
+                                <img src={h5} alt="asd" />
                                 <div className="info">
                                     <h4>Website Development & Design</h4>
                                     <ul>
@@ -110,7 +112,7 @@ class Index extends React.Component {
                                 </div>
                             </div>
                             <div className="card">
-                                <img src={h7} alt="Image" />
+                                <img src={h7} alt="asd" />
                                 <div className="info">
                                     <h4>Digital Marketing</h4>
                                     <ul>
@@ -158,7 +160,7 @@ class Index extends React.Component {
                                 data-pagination={{ clickable: true }}
                             >
                                 <SwiperSlide className="our-com">
-                                    <img src={h11} alt="" className="img" />
+                                    <img src={h11} alt="asd" className="img" />
                                     <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                     <span className="material-symbols-outlined">grade</span>
                                     <span className="material-symbols-outlined">grade</span>
@@ -167,7 +169,7 @@ class Index extends React.Component {
                                     <span className="material-symbols-outlined">grade</span>
                                 </SwiperSlide>
                                 <SwiperSlide className="our-com">
-                                    <img src={h12} alt="" className="img" />
+                                    <img src={h12} alt="asd" className="img" />
                                     <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                     <span className="material-symbols-outlined">grade</span>
                                     <span className="material-symbols-outlined">grade</span>
@@ -176,7 +178,7 @@ class Index extends React.Component {
                                     <span className="material-symbols-outlined">grade</span>
                                 </SwiperSlide>
                                 <SwiperSlide className="our-com">
-                                    <img src={h13} alt="" className="img" />
+                                    <img src={h13} alt="asd" className="img" />
                                     <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                     <span className="material-symbols-outlined">grade</span>
                                     <span className="material-symbols-outlined">grade</span>
@@ -185,7 +187,7 @@ class Index extends React.Component {
                                     <span className="material-symbols-outlined">grade</span>
                                 </SwiperSlide>
                                 <SwiperSlide className="our-com">
-                                    <img src={h11} alt="" className="img" />
+                                    <img src={h11} alt="asd" className="img" />
                                     <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                     <span className="material-symbols-outlined">grade</span>
                                     <span className="material-symbols-outlined">grade</span>
@@ -194,7 +196,7 @@ class Index extends React.Component {
                                     <span className="material-symbols-outlined">grade</span>
                                 </SwiperSlide>
                                 <SwiperSlide className="our-com">
-                                    <img src={h12} alt="" className="img" />
+                                    <img src={h12} alt="asd" className="img" />
                                     <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                     <span className="material-symbols-outlined">grade</span>
                                     <span className="material-symbols-outlined">grade</span>
@@ -203,7 +205,7 @@ class Index extends React.Component {
                                     <span className="material-symbols-outlined">grade</span>
                                 </SwiperSlide>
                                 <SwiperSlide className="our-com">
-                                    <img src={h13} alt="" className="img" />
+                                    <img src={h13} alt="asd" className="img" />
                                     <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                     <span className="material-symbols-outlined">grade</span>
                                     <span className="material-symbols-outlined">grade</span>

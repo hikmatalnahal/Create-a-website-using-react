@@ -63,9 +63,9 @@ const Footerpage = () => {
                             <p>Privacy Policy</p>
                         </div>
                         <div className="flex-footer2">
-                            <img src={fb} alt="" />
-                            <img src={is} alt="" />
-                            <img src={tw} alt="" />
+                            <img src={fb} alt="asd" />
+                            <img src={is} alt="asd" />
+                            <img src={tw} alt="asd" />
                         </div>
                     </div>
                     <div className="footer-bottom" >
