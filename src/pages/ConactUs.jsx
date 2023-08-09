@@ -12,7 +12,6 @@ class ConactUs extends React.Component {
                 <Navpages />
                 <ConactUspage />
                 <Footerpage />
-
             </div>
 
         );
