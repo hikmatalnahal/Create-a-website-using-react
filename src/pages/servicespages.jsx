@@ -3,6 +3,7 @@ import h4 from "../imgHome/4.png";
 import h5 from "../imgHome/5.png";
 import h6 from "../imgHome/6.png";
 import h22 from "../imgHome/22.png";
+import Servicess from "../components/services/Services";
 const Servicespage = () => {
     return (
         <>
@@ -21,7 +22,7 @@ const Servicespage = () => {
             <div class="portfolio" id="portfolio">
                 <div class="container">
                     <div class="portfolio-content">
-                        <div class="card">
+                        {/* <div class="card">
                             <img src={h3} alt="asd" />
                             <div class="info">
                                 <h4>Graphic Design & Branding</h4>
@@ -33,54 +34,50 @@ const Servicespage = () => {
                                 <li>Social Media Designs</li>
                                 <p className="custom-text" style={{ display: 'none' }}>This is my additional text.</p>
                                 <button className="read-more-button" onClick={(e) => this.toggleInfo(e)}>Learn More <span className="arrow-icon">&gt;</span></button>                   </div>
-                        </div>
+                        </div> */}
+                        <Servicess image={h3}
+                            title="Graphic Design & Branding"
+                            title2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam"
+                            title3="Brand Guidelines"
+                            title4="Brand Identity"
+                            title5="Color Pallete"
+                            title6="Social Media Designs"
+                            title7="This is my additional text."
+                            title8="Learn More" />
 
-                        <div class="card">
-                            <img src={h4} alt="asd" />
-                            <div class="info">
-                                <h4>Software</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                                <li>Setting up CRM</li>
-                                <li>Software recommendation for a specific business type</li>
-                                <p className="custom-text" style={{ display: 'none' }}>This is my additional text.</p>
-                                <button className="read-more-button" onClick={(e) => this.toggleInfo(e)}>Learn More <span className="arrow-icon">&gt;</span></button>
+                        <Servicess image={h4}
+                            title="Software"
+                            title2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam"
+                            title3="Setting up CRM"
+                            title4="WordSoftware recommendation for a specific business typepress Development"
+                            title5="Setting up CRM"
+                            title6="WordSoftware recommendation for a specific business typepress Development"
+                            title7="This is my additional text."
+                            title8="Learn More" />
 
-                            </div>
-                        </div>
+                        <Servicess image={h5}
+                            title="Website Development & Design"
+                            title2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam"
+                            title3="Ecommerce"
+                            title4="Wordpress Development"
+                            title5="UI Design"
+                            title6="Copywriting"
+                            title7="This is my additional text."
+                            title8="Learn More" />
 
-                        <div class="card">
-                            <img src={h5} alt="asd" />
-                            <div class="info">
-                                <h4>Website Development & Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                                <li>Wordpress Development</li>
-                                <li>Ecommerce</li>
-                                <li>Website Hosting</li>
-                                <li>UI Design</li>
-                                <li>Copywriting</li>
-                                <li> Speed Optimization</li>
-                                <p className="custom-text" style={{ display: 'none' }}>This is my additional text.</p>
-                                <button className="read-more-button" onClick={(e) => this.toggleInfo(e)}>Learn More <span className="arrow-icon">&gt;</span></button>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src={h6} alt="asd" />
-                            <div class="info">
-                                <h4>Digital Marketing</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                                <li>Google Ads</li>
-                                <li>Facebook Ads</li>
-                                <li>Search Engine Optimization</li>
-                                <li>Influencer Marketing</li>
-                                <li>Google Ads</li>
-                                <p className="custom-text" style={{ display: 'none' }}>This is my additional text.</p>
-                                <button className="read-more-button" onClick={(e) => this.toggleInfo(e)}>Learn More <span className="arrow-icon">&gt;</span></button>
-                            </div>
-                        </div>
+                        <Servicess image={h6}
+                            title="Digital Marketing"
+                            title2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam"
+                            title3="Google Ads"
+                            title4="Facebook Ads"
+                            title5="Search Engine Optimization"
+                            title6="Google Ads"
+                            title7="This is my additional text."
+                            title8="Learn More" />
 
                     </div>
                 </div>

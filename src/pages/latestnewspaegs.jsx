@@ -1,3 +1,4 @@
+import Latestnewspaegs from "../components/Latest/latestnew";
 import h22 from "../imgHome/22.png";
 import h23 from "../imgHome/23.png";
 import h24 from "../imgHome/24.png";
@@ -26,7 +27,7 @@ const Latestnewspages = () => {
                         <li><a href="#newsletter">software</a></li>
                     </ul>
                     <div class="portfolio-content">
-                        <div class="card2">
+                        {/* <div class="card2">
                             <a href="./latest2"><img src={h23} alt="asd" /></a>
                             <div class="info">
                                 <h4>Blog Title</h4>
@@ -35,114 +36,19 @@ const Latestnewspages = () => {
                                 <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
 
                             </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./latest2"><img src={h24} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li >Digital Marketing </li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./latest2"><img src={h25} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li>UI/UX</li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./latest2"><img src={h26} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li >Digital Marketing </li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./latest2"><img src={h23} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li>UI/UX</li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./latest2"><img src={h24} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li>Digital Marketing </li>
-                                <li style={{ liststyle: "none" }}> Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./latest2"><img src={h25} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li>UI/UX</li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./latest2"><img src={h26} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li>Digital Marketing </li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./latest2"><img src={h23} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li>UI/UX</li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./latest2"><img src={h24} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li>Digital Marketing </li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./ latest2"><img src={h25} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li>UI/UX</li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-                            </div>
-                        </div>
-                        <div class="card2">
-                            <a href="./ latest2"><img src={h26} alt="asd" /></a>
-                            <div class="info">
-                                <h4>Blog Title</h4>
-                                <li>Digital Marketing </li>
-                                <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
-                                <li style={{ liststyle: "none" }}>Techreif Oct 20, 2022 </li>
-
-                            </div>
-                        </div>
-
+                        </div> */}
+                        <Latestnewspaegs image={h23} title="Blog Title" title2="UI/UX" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h24} title="Blog Title" title2="Digital Marketing" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h25} title="Blog Title" title2="UI/UX" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h26} title="Blog Title" title2="Digital Marketing" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h23} title="Blog Title" title2="UI/UX" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h24} title="Blog Title" title2="Digital Marketing" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h25} title="Blog Title" title2="UI/UX" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h26} title="Blog Title" title2="Digital Marketing" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h23} title="Blog Title" title2="UI/UX" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h24} title="Blog Title" title2="Digital Marketing" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h25} title="Blog Title" title2="UI/UX" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
+                        <Latestnewspaegs image={h26} title="Blog Title" title2="Digital Marketing" title3="Lorem ipsum dolor sit amet, consectetur adipiscing " title4="Techreif Oct 20, 2022" />
                     </div>
 
                 </div>
