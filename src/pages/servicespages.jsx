@@ -7,24 +7,24 @@ import Servicess from "../components/services/Services";
 const Servicespage = () => {
     return (
         <>
-            <div class="container">
-                <div class="img-banner">
-                    <div class="heading">
-                        <h1 class="black">our services</h1>
+            <div className="container">
+                <div className="img-banner">
+                    <div className="heading">
+                        <h1 className="black">our services</h1>
                         <p>The service we offer is specifically designed
                             <br />to meet your needs.
                         </p>
                     </div>
-                    <img src={h22} alt="balls " class="balls-img" />
+                    <img src={h22} alt="balls " className="balls-img" />
                 </div>
             </div>
 
-            <div class="portfolio" id="portfolio">
-                <div class="container">
-                    <div class="portfolio-content">
-                        {/* <div class="card">
+            <div className="portfolio" id="portfolio">
+                <div className="container">
+                    <div className="portfolio-content">
+                        {/* <div className="card">
                             <img src={h3} alt="asd" />
-                            <div class="info">
+                            <div className="info">
                                 <h4>Graphic Design & Branding</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                     labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -32,8 +32,8 @@ const Servicespage = () => {
                                 <li>Brand Identity</li>
                                 <li>Color Pallete</li>
                                 <li>Social Media Designs</li>
-                                <p className="custom-text" style={{ display: 'none' }}>This is my additional text.</p>
-                                <button className="read-more-button" onClick={(e) => this.toggleInfo(e)}>Learn More <span className="arrow-icon">&gt;</span></button>                   </div>
+                                <p classNameName="custom-text" style={{ display: 'none' }}>This is my additional text.</p>
+                                <button classNameName="read-more-button" onClick={(e) => this.toggleInfo(e)}>Learn More <span classNameName="arrow-icon">&gt;</span></button>                   </div>
                         </div> */}
                         <Servicess image={h3}
                             title="Graphic Design & Branding"

@@ -7,29 +7,29 @@ import h26 from "../imgHome/26.png";
 const Latestnewspages = () => {
     return (
         <>
-            <div class="container">
-                <div class="img-banner">
-                    <div class="heading">
-                        <h1 class="black">Latest News</h1>
+            <div className="container">
+                <div className="img-banner">
+                    <div className="heading">
+                        <h1 className="black">Latest News</h1>
                         <p>Follow us for the latest news and articles
                         </p>
                     </div>
-                    <img src={h22} alt="balls" class="balls-img" />
+                    <img src={h22} alt="balls" className="balls-img" />
                 </div>
             </div>
 
-            <div class="portfolio" id="portfolio">
-                <div class="container">
-                    <ul class="navbar2">
-                        <li><a href="#home" class="homa-active">ALL</a></li>
+            <div className="portfolio" id="portfolio">
+                <div className="container">
+                    <ul className="navbar2">
+                        <li><a href="#home" className="homa-active">ALL</a></li>
                         <li><a href="#movies">Digital Marketing</a></li>
                         <li><a href="#coming">Website development</a></li>
                         <li><a href="#newsletter">software</a></li>
                     </ul>
-                    <div class="portfolio-content">
-                        {/* <div class="card2">
+                    <div className="portfolio-content">
+                        {/* <div className="card2">
                             <a href="./latest2"><img src={h23} alt="asd" /></a>
-                            <div class="info">
+                            <div className="info">
                                 <h4>Blog Title</h4>
                                 <li>UI/UX</li>
                                 <li style={{ liststyle: "none" }}>Lorem ipsum dolor sit amet, consectetur adipiscing </li>
